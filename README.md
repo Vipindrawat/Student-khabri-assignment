@@ -21,13 +21,13 @@ It allows users to manage leads, filter and sort them, and see analytics of lead
 
 ## Tech Stack
 ### Frontend:
-            React (Vite), Tailwind CSS, Axios, React Router
+React (Vite), Tailwind CSS, Axios, React Router
 
 ### Backend:
-           Node.js, Express, Mongoose (MongoDB)
+Node.js, Express, Mongoose (MongoDB)
 
 ### Authentication:
-               JWT
+JWT
 
 ## Getting Started (Local Development):
 
@@ -36,23 +36,23 @@ It allows users to manage leads, filter and sort them, and see analytics of lead
 git clone https://github.com/Vipindrawat/Student-khabri-assignment.git
 cd Student-khabri-assignment/Backend
 #### 2) Install dependencies:
-a) npm install
+                             npm install
 b) Create a .env file with:
     PORT=3000
     URI=your_mongodb_connection_string
     JWT_SECRET=your_jwt_secret
 #### 3) Start the backend server:
- npm start
+                                 npm start
 
 ### Frontend
 #### 1) Navigate to the frontend folder:
 cd ../Frontend
 #### 2) Install dependencies:
-npm install
+                           npm install
 #### 3) Create a .env file with:
 VITE_API_URL=http://localhost:3000
 #### 4)Start the development server:
-npm run dev
+                                  npm run dev
 
 ## Folder Structure
 Backend/
